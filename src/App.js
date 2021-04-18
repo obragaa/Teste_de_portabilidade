@@ -52,7 +52,7 @@ function App() {
                   </div>
 
                   <div key={champion.id} id="img-heroi ">
-                    <img id="img-border" src={champion.img_champion} width="200px" heigth="200px"></img>
+                    <img id="img-border" src={champion.img_champion} width="220px" heigth="220px"></img>
                   </div>
                   
                   <div key={champion.id} className="infos-heroi">
