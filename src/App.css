@@ -35,7 +35,7 @@
   border-top-right-radius: 10%;
   margin: 1%;
   width: 40%;
-  min-width: 280px;
+  min-width: 240px;
   height: auto;
 }
 
@@ -99,50 +99,13 @@
   padding-top: 15px;
 }
 
-
 .footer{
   position: relative; 
   bottom:0; 
   width: 100%;
 }
 
-
-@media (max-width: 600px){
-
-  #img-heroi{
-    height: auto;
-    width: 100%;
-  }
-
-  .infos-heroi{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    margin-bottom: 5px;
-  }
-
-  #img-border{
-    margin-top: 7px;
-    margin-left: 13%;
-    margin-bottom: 20px;
-  }
-
-  #header-heroi{
-    height: 5%;
-  }
-
-  .skill-img{
-    padding: 5px;
-    width: 50px;
-    height: 50px;
-    margin-left: 3%;
-  }
-
-}
-
-@media  (max-height: 1366px){
+@media  (min-height: 1366px) and (min-width: 1024px){
 
   #img-heroi{
     height: auto;
@@ -175,6 +138,45 @@
     margin-left: 3%;
   }
   
+}
+
+@media (max-width: 1330px){
+
+  .conteudo{
+    width: 278px;
+  }
+
+  #img-heroi{
+    height: auto;
+    width: 100%;
+  }
+
+  .infos-heroi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  #img-border{
+    margin-top: 7px;
+    margin-left: 13%;
+    margin-bottom: 20px;
+  }
+
+  #header-heroi{
+    height: 5%;
+  }
+
+  .skill-img{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 3%;
+  }
+
 }
 
 @media (max-width: 280px){
@@ -222,8 +224,8 @@
 
   }
 
-  .texto-infos{
-    margin-left: 42%;
+  #texto-infos{
+    width: 100%;
   }
 
 }
