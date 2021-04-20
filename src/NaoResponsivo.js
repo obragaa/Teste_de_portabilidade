@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import './App.css';
+import './NaoResponsivo.css';
 
-function App() {
+function NaoResponsivo() {
 
   let [champions, setChampions] = useState([]);
   
@@ -37,7 +37,7 @@ function App() {
               </li>
             </Link>
 
-            <Link to='/nao-responsivo'>
+            <Link to='/NaoResponsivo'>
               <li className="nav-item p-2 bd-highlight">
                   <a className="nav-link text-white">HOME 2</a>
               </li>
@@ -104,4 +104,4 @@ function App() {
   );
 }
 
-export default App;
+export default NaoResponsivo;
