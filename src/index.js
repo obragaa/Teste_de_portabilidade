@@ -5,13 +5,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import App from './App';
-import NaoResponsivo from './NaoResponsivo'
+import NaoResponsivo from './pages/NaoResponsivo/NaoResponsivo'
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route exact path='/' component={App}/>
-      <Route path='/NaoResponsivo' component={NaoResponsivo}/>
+      <Route path='/naoresponsivo' component={NaoResponsivo}/>
     </Switch>
   </BrowserRouter>
 

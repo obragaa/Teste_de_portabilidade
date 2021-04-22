@@ -37,7 +37,7 @@ function App() {
               </li>
             </Link>
 
-            <Link to='/nao-responsivo'>
+            <Link to='/naoresponsivo'>
               <li className="nav-item p-2 bd-highlight">
                   <a className="nav-link text-white">HOME 2</a>
               </li>
