@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import App from './App';
-import NaoResponsivo from './pages/NaoResponsivo/NaoResponsivo'
+import NaoResponsivo from './NaoResponsivo'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,7 +14,7 @@ ReactDOM.render(
       <Route path='/naoresponsivo' component={NaoResponsivo}/>
     </Switch>
   </BrowserRouter>
-
+ 
   , document.getElementById('root')
 );
 
