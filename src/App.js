@@ -33,7 +33,7 @@ function App() {
 
             <Link to='/'>
               <li className="nav-item p-2 bd-highlight">
-                  <a className="nav-link text-white">HOME</a>
+                  <a className="nav-link text-white">HOME 1</a>
               </li>
             </Link>
 
